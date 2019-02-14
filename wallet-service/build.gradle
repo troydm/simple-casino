@@ -1,0 +1,6 @@
+dependencies {
+    compile project(':common')
+    compile group: 'com.h2database', name: 'h2', version: '1.4.196'
+    compile group: 'org.eclipse.persistence', name: 'org.eclipse.persistence.jpa', version: '2.7.1'
+    compile group: 'org.scala-libs', name: 'scalajpa_2.12', version: '1.5'
+}
